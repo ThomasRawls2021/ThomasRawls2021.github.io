@@ -1,7 +1,8 @@
 html{
-    background:url(../images/nono.jpg);
+    background:url(../images/nature.jpg);
     background-repeat: no-repeat;
     background-size:cover;    
+    background-color: black;
     color:cyan;
     font-family: cursive
 }
@@ -11,6 +12,15 @@ div {
     padding: 8px;
 }
  
+div {
+    font-size: 24px;
+    }
+
+div {
+    border-radius: 8px;
+    background-color:black;
+    padding: 8px;     
+}
 .topnav {
     background-color:black;
     overflow: hidden;
