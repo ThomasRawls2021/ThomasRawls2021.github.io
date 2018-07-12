@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
  <head>
      <meta charset="utf-8" /> 
@@ -7,79 +7,80 @@
      <link href="Style/main.css" rel="stylesheet" type="text/css">
     
     </head>
-  <body> 
-       <h1 id="Top" align= center style=color:white>Cholera</h1>
-      
-      <div class="topnav">
-          <a class="active" href="#home">Home</a>
-          <a href="NEWS.html">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-      <input type="text" placeholder="Search..">
-      </div>
-      <hr>
+  <body>
        
-   
+    
+      <h1 id="Top" align= center style=color:cyan>NHOC (National Health Organization of Cholera</h1>
+      
       <center>
-    <img src="images/water_121.jpg" width="600" height="440" align=center alt="A picture of Cholera">
-      </center>
-    <br>              
-    <p>Information on Cholera</p>
-    <hr>  
-     
-    <div id="AC">
-        <h2>About Cholera</h2>
-        <p>Cholera is an infectious disease of the small intestine that  severe vomiting and diarrhea. Cholera is cause by the bacteria Vibrio cholera. A person can be infected by drinking water or eating food that is contaminated with the cholera bacteria. Countries affected by war, poverty, and natural disasters have the greatest risk for a cholera outbreak. It is mostly found in Africa, the Caribbean Islands, Asia, Latin America, India, and the middle east. It is rare in the U.S.Every year 3-5 million people around the world are infected  with cholera and 100,000- 120,000 people die from the infectious disease, according to estimates by the World Health Organization (WHO).
-</p>
-     </div>
-    
-         <hr>
-     <div id="SP">
-         <b>Symptoms</b>
-        
-        <ul>
-            <li> Diarrhea. </li>
-            <li>  Nausea and vomiting.</li>
-            <li> Dehydration. </li>
-            <li>Electrolyte imbalance  </li>
-            <li>  Muscle cramps</li>
-            <li>  Shock.</li>
-            <bi>Signs of cholera in children</bi>
-            <li> An altered state of consciousness </li>
-            <li>  Seizures</li>
-            <li>  Coma</li>
-            <li>  </li>
-        </ul>
-    </div>
-    <hr>
-      
-   <div id="ST">
-       <b>Statistics</b>
+      <div class="topnav">
+         <nav>
+          <a class="active" href="index.html">Home</a>
+          <a class="active" href="NEWS.html">News</a>
+          <a class="active" href="love.html">Info</a>
+          <a class="active" href="Me.html">About</a>
+          </nav>
+          </div>
+    </center>
        
-       <h3> Cholera is often found in the tropic areas such as Asia, Africa, India, and Latin America. The largest cholera outbreak that occured was in Yemen in December of 20  17. There were over one million cases and 2,227 people died from the disease </h3>
-      
-        <center>
-      <img src=images/Cholera_005.jpg>
-       </center>
-      
-      
-      
-      
-      
-      </div>   
-      
-      
-      
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/DSC_0735.JPG" style="width:100%">
+    <div class="text">Darwin Prather(Team Web Designer)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/DSC_0647%20(1).JPG" style="width:100%">
+    <div class="text">Thomas Rawls(Team leader/web developer)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/DSC_0731.JPG" style="width:100%">
+    <div class="text">Chandler Morgan(Team Developer) and Darwin Prather</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    </body>
+</body>
 
 </html>
 
