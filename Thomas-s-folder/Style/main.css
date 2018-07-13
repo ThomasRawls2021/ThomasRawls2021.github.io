@@ -1,5 +1,5 @@
 html{
-    background:url(../images/splash.jpg);
+    background:url(../images/waterfall.jpg);
     background-repeat: no-repeat;
     background-size:cover;    
     background-color: black;
@@ -16,11 +16,46 @@ div {
     font-size: 24px;
     }
 
-div {
+#TR {
+    margin-left: 27%;
+    margin-right: 27%;
     border-radius: 8px;
     background-color:black;
     padding: 8px;     
 }
+
+#CM {
+    margin-left: 27%;
+    margin-right: 27%;
+    border-radius: 8px;
+    background-color:black;
+    padding: 8px;     
+}
+
+
+#DP {
+    margin-left: 27%;
+    margin-right: 27%;
+    border-radius: 8px;
+    background-color:black;
+    padding: 8px;     
+}
+
+#AC {
+    margin-left: ;
+    border-radius: 8px;
+    background-color:black;
+    padding: 8px;     
+}
+
+
+
+
+
+
+
+
+
 .topnav {
     background-color:black;
     overflow: hidden;
@@ -38,14 +73,14 @@ div {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color:  #ddd;
     color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+    background-color:black;
+    color: cyan;
 }
 
 .sidenav {
